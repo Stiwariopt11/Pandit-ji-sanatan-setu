@@ -1,0 +1,349 @@
+*{
+    margin:0px;
+    padding:0px;
+
+}
+#fathergalary{
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    
+
+}
+
+
+
+.imgdiv{
+     width:100%;
+
+ /* background: linear-gradient(0deg, oklch(72.05% 0.1888 50.61) 0.000% 4.762%, oklch(72.48% 0.1875 51.54) 4.762% 9.524%, oklch(73.01% 0.1858 52.81) 9.524% 14.286%, oklch(73.64% 0.1838 54.33) 14.286% 19.048%, oklch(74.35% 0.1808 56.04) 19.048% 23.810%, oklch(75.12% 0.1772 57.82) 23.810% 28.571%, oklch(75.95% 0.1731 59.63) 28.571% 33.333%, oklch(76.82% 0.1687 61.37) 33.333% 38.095%, oklch(77.71% 0.1638 62.97) 38.095% 42.857%, oklch(78.62% 0.1586 64.34) 42.857% 47.619%, oklch(79.53% 0.1530 65.42) 47.619% 52.381%, oklch(80.51% 0.1464 66.22) 52.381% 57.143%, oklch(81.62% 0.1385 66.85) 57.143% 61.905%, oklch(82.82% 0.1299 67.32) 61.905% 66.667%, oklch(84.06% 0.1206 67.68) 66.667% 71.429%, oklch(85.31% 0.1107 67.93) 71.429% 76.190%, oklch(86.52% 0.1010 68.11) 76.190% 80.952%, oklch(87.65% 0.0920 68.24) 80.952% 85.714%, oklch(88.66% 0.0840 68.35) 85.714% 90.476%, oklch(89.51% 0.0774 68.46) 90.476% 95.238%, oklch(90.16% 0.0725 68.60) 95.238% 100.000%); */
+
+  display:grid;
+grid-template-columns: repeat(4, 1fr);
+gap:20px;
+padding: 40px;
+padding-left: 80px;
+/* background-color: white; */
+
+}
+
+
+
+
+
+
+.imgcls{
+height:300px;
+width:300px;
+border-radius: 30px;
+object-fit: cover;
+border:3px solid black;
+ transition: transform 0.4s ease;
+ border-color: rgb(218, 155, 47);
+
+    box-shadow: 0 0 12px rgba(218, 155, 47, 0.7),
+
+                0 0 25px rgba(218, 155, 47, 0.35);
+
+    filter: brightness(1.08) saturate(1.15);
+background-image: url("https://thumbs.dreamstime.com/b/ram-lalla-vector-silhouette-idol-ayodhya-s-mandir-305051576.jpg");
+
+    background-size: cover;
+
+    background-position: center;
+
+    background-repeat: no-repeat;
+    cursor: pointer;
+
+
+
+}
+
+
+
+.imgcls:hover{
+    transform :scale(1.1);
+filter: blur(1px);
+    box-shadow: 1px 1px 13px black;
+}
+
+.firstimg {
+margin-top:120px;
+    display:flex;
+   margin-left:20px;
+    /* justify-content: center;
+    align-items: center; */
+    border-radius: 100px;
+}
+p, h1{color:black}
+
+
+.firstimage{
+border:3px solid black;
+    border-radius: 100px;
+    height:200px;
+width:200px;
+}
+
+.firstimage:hover{
+    transform :scale(1.1);
+
+    box-shadow: 1px 1px 13px black;
+    transition: transform 0.4s ease;
+}
+
+.videos{
+    height:300px;
+    width:100%;
+    display:flex;
+    flex-direction: row;
+   
+    justify-content: space-evenly;
+    margin-top:50px;
+    margin-bottom: 50px;
+}
+
+.vdos{
+    border:3px solid rgb(241, 141, 79);
+    border-radius: 200px;
+    height:290px;
+    width:300px;
+    object-fit: cover;
+    box-shadow:1px 1px 13px rgb(17, 17, 16);
+
+}
+
+#pdtdtl{
+
+    margin:20px;
+    padding:10px;
+}
+
+#experience{
+    margin-left: 50px;
+}
+#name h2{
+color:white;
+}
+
+
+.buttonsection{
+    width:100%;
+    display: flex;
+    gap:50px;
+    margin-top: 20px;
+    margin-left:20px;
+}
+#buttonn{
+    height:40px;
+    width:150px;
+    background-color: rgb(248, 191, 86);
+    border:1px solid black;
+    border-radius: 5px;
+    box-shadow: 1px 1px 13px black;
+    transition:all ;
+}
+#buttonn:hover{
+    /* background-color: rgb(231, 142, 90); */
+    box-shadow: 1px 1px 13px rgb(227, 152, 152);
+    transform: scale(1.05)
+}
+
+
+
+/* Keep existing desktop design */
+* {
+    box-sizing: border-box;
+}
+
+#fathergalary {
+    width: 100%;
+    min-width: 0;
+}
+
+.imgdiv {
+    width: 100%;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    padding: 40px;
+    padding-left: 80px;
+}
+
+.imgcls {
+    width: 100%;
+    height: 300px;
+    min-width: 0;
+}
+
+/* Videos */
+.videos {
+    width: 100%;
+    height: 300px;
+    gap: 15px;
+    padding: 0 15px;
+}
+
+.vdos {
+    width: 300px;
+    height: 290px;
+    max-width: 100%;
+    min-width: 0;
+}
+
+/* Profile */
+.firstimg {
+    min-width: 0;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+#pdtdtl {
+    min-width: 0;
+}
+
+#name h2,
+#experience h4 {
+    overflow-wrap: anywhere;
+}
+
+/* Tablet */
+@media (max-width: 1024px) {
+    .imgdiv {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        padding: 30px;
+    }
+
+    .videos {
+        height: auto;
+        flex-wrap: wrap;
+    }
+
+    .vdos {
+        width: calc(50% - 15px);
+        height: 290px;
+    }
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+
+    #fathergalary {
+        width: 100%;
+        overflow-x: clip;
+    }
+
+    .firstimg {
+        margin-top: 40px;
+        margin-left: 0;
+        padding: 15px;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        border-radius: 0;
+    }
+
+    .firstimage {
+        width: 200px;
+        height: 200px;
+        max-width: 100%;
+    }
+
+    #pdtdtl {
+        margin: 10px 0;
+        padding: 5px;
+    }
+
+    #name h2 {
+        font-size: 22px;
+    }
+
+    #experience {
+        margin-left: 0;
+    }
+
+    #experience h4 {
+        font-size: 14px;
+    }
+
+    .buttonsection {
+        width: 100%;
+        margin: 10px 0 0;
+        padding: 0 15px;
+        gap: 15px;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    #buttonn {
+        width: 140px;
+        height: 40px;
+    }
+
+    .videos {
+        width: 100%;
+        height: auto;
+        margin: 30px 0;
+        padding: 0 10px;
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 10px;
+    }
+
+    .vdos {
+        width: 100%;
+        height: 180px;
+        min-width: 0;
+        border-radius: 20px;
+    }
+
+    .gallarycontainer {
+        width: 100%;
+        min-width: 0;
+    }
+
+    .imgdiv {
+        width: 100%;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 12px;
+        padding: 15px;
+    }
+
+    .imgcls {
+        width: 100%;
+        height: 180px;
+        min-width: 0;
+        border-radius: 15px;
+        border-width: 2px;
+    }
+
+    .imgcls:hover {
+        transform: none;
+        filter: brightness(1.08) saturate(1.15);
+    }
+}
+
+/* Very narrow phones */
+@media (max-width: 360px) {
+    .imgdiv {
+        gap: 8px;
+        padding: 10px;
+    }
+
+    .imgcls {
+        height: 150px;
+    }
+
+    .vdos {
+        height: 150px;
+    }
+
+    .buttonsection {
+        gap: 10px;
+    }
+
+    #buttonn {
+        width: 125px;
+    }
+
+
+
+}

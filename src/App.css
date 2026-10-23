@@ -1,0 +1,49 @@
+/* .one{
+width:100vw;
+height:100vh;
+  position: relative;
+z-index:1;
+}
+
+
+.two{
+width:100vw;
+height:100vh;
+     position: absolute;
+
+  top:0;
+  left:0;
+    z-index: 0;
+}
+
+#root {
+
+    width: 100%;
+
+    max-width: 100vw;
+
+    margin: 0;
+
+    padding: 0;
+
+} */
+
+/* .one {
+    position: relative;
+    width: 100%;
+    z-index: 10;
+}
+
+.two {
+    position: relative;
+    width: 100%;
+}
+
+.herodiv {
+    width: 100%;
+    min-height: 100vh;
+} */
+ .appfooter{
+
+    position:fixed;
+ }

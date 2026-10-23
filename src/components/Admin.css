@@ -1,0 +1,145 @@
+*{
+
+    margin:0px;
+    padding:0px;
+box-sizing: border-box;
+}
+
+   
+
+
+
+.handbutton{
+    display:flex;
+    flex-direction: column;
+    gap:30px;
+}
+
+
+.admincontainer{
+   min-height:100vh;
+    width:100vw;
+    background-color: rgb(255, 255, 255);
+
+}
+
+.partone button{
+    height:30px;
+    padding:5px;
+    background-color: orange;
+    margin-left: 15px;
+    border:1px solid orange;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px gray;
+    transition:all 0.3s ease-in-out;
+    color:black;
+
+}
+
+
+.parttwo button{
+    height:30px;
+    padding:5px;
+    background-color: orange;
+    margin-left: 15px;
+    border:1px solid orange;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px gray;
+    transition:all 0.3s ease-in-out;
+    color:black;
+
+}
+
+.partone button{
+    height:30px;
+    padding:5px;
+    background-color: orange;
+    margin-left: 15px;
+    border:1px solid orange;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px gray;
+    transition:all 0.3s ease-in-out;
+    color:black;
+
+}
+
+
+.partone button:hover{
+    background-color: rgb(109, 76, 14);
+    color:white;
+    transform: scale(1.1); }
+
+.parttwo button:hover{
+    background-color: rgb(109, 76, 14);
+    color:white;
+    transform: scale(1.1);
+}
+
+#haath{
+    transition:all 0.3s ease-in-out;
+}
+#haath:hover{
+transform: scale(1.1);
+}
+
+
+
+
+
+.madiband1{
+    position:fixed;
+    width:200px;
+    height:4px;
+    background-color: black;
+    top:590px;
+    left:640px;
+}
+.madiband2{
+    position:fixed;
+    width:200px;
+    height:4px;
+    background-color: black;
+    top:580px;
+    left:640px;
+}
+
+.jeevan{
+position:fixed;
+    width:300px;
+    height:250px;
+    /* background-color: black; */
+    top:350px;
+    left:450px;
+    
+    
+    border:2mm solid black;
+    border-top:none;
+    border-bottom: none;
+    border-left: none;
+    border-radius: 40%;
+}
+
+.swasthya{
+    position:fixed;
+    width:200px;
+    height:4px;
+    /* background-color: black; */
+    top:400px;
+    left:650px;
+    background-color: rgb(255, 127, 161);
+    transform: rotate(+40deg);
+    
+}
+
+.mastisk{
+
+position:fixed;
+    width:200px;
+    height:4px;
+    /* background-color: black; */
+    top:350px;
+    left:650px;
+    background-color: rgb(255, 127, 161);
+    transform: rotate(+40deg);
+
+}

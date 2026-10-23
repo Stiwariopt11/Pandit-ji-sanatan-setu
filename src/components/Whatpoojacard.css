@@ -1,0 +1,6 @@
+.detailincard:hover{
+    transform:scale(1.1)
+
+
+}
+.detailincard{transition: all 0.3s ease-in-out;}

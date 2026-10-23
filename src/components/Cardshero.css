@@ -1,0 +1,27 @@
+.cards{
+    
+    height:350px;
+    width:300px;
+    background-color:rgb(243, 244, 246);
+    border-radius: 20px;
+    /* border: 1px solid black; */
+    color:black;
+    box-shadow:5px 5px 10px  rgb(76, 76, 76);
+    /* align-items: center; */
+    transition: all 0.3s ease;
+     cursor: pointer;
+}
+
+.cards:hover{
+    transform: scale(1.1);
+}
+
+@media (max-width: 600px) {
+
+
+    .cards{height:350px;
+        width:250px;
+        margin-left:55px
+    }
+}
+
