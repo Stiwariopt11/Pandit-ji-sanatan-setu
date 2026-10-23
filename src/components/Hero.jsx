@@ -1,5 +1,5 @@
 import "./Hero.css"
-import video from "../assets/video.mp4"
+import video from "../assets/output.mp4"
 import { useRef, useEffect } from "react";
 import Karyahero from "./Karyahero.jsx";
 import Cardshero from "./Cardshero.jsx";
@@ -29,32 +29,41 @@ const Hero = () => {
 
  const videoRef = useRef(null);
 
-
 useEffect(() => {
-  const vid = videoRef.current;
-  if (!vid) return;
+  const video = videoRef.current;
+  if (!video) return;
 
-  vid.muted = false;
-  vid.defaultMuted = false;
+  video.muted = true;
 
-  const playVideo = () => {
-    vid.play().catch((err) => {
-      console.error("Video autoplay failed:", err.name, err.message);
+  let retryTimer;
+
+  const startVideo = () => {
+    if (!video.paused) return;
+
+    video.play().catch((error) => {
+      console.log("Autoplay retry:", error);
     });
   };
 
-  if (vid.readyState >= 2) {
-    playVideo();
-  } else {
-    vid.addEventListener("canplay", playVideo, { once: true });
-  }
+  startVideo();
+
+  video.addEventListener("loadeddata", startVideo);
+  video.addEventListener("canplay", startVideo);
+
+  retryTimer = setInterval(() => {
+    if (video.paused) {
+      startVideo();
+    } else {
+      clearInterval(retryTimer);
+    }
+  }, 1000);
 
   return () => {
-    vid.removeEventListener("canplay", playVideo);
+    video.removeEventListener("loadeddata", startVideo);
+    video.removeEventListener("canplay", startVideo);
+    clearInterval(retryTimer);
   };
 }, []);
-
-
 
 
 useEffect(() => {
@@ -126,10 +135,10 @@ function bookpooja() {
 
     <div className="herodiv" style={{backgroundColor:"white"}}>
  <div id="animatedvdo">
-     <video id="vid" ref={videoRef}  src={video} autoPlay  loop playsInline  />
+     <video id="vid" ref={videoRef}  src={video} autoPlay   playsInline preload="auto" loop/>
 </div>
 
-
+runforcefullyvdo();
 
 
 <br>
