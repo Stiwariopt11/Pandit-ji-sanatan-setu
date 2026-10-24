@@ -4,6 +4,7 @@ import { useRef, useEffect } from "react";
 import Karyahero from "./Karyahero.jsx";
 import Cardshero from "./Cardshero.jsx";
 import  srsite  from"../assets/srsite.jpg";
+import  audio  from"../assets/video.mp3";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { Link } from 'react-router-dom'
@@ -33,7 +34,7 @@ useEffect(() => {
   const video = videoRef.current;
   if (!video) return;
 
-  video.muted = false;
+  video.muted = true;
 
   let retryTimer;
 
@@ -57,7 +58,7 @@ useEffect(() => {
       clearInterval(retryTimer);
     }
   }, 1000);
-
+video.muted = true;
   return () => {
     video.removeEventListener("loadeddata", startVideo);
     video.removeEventListener("canplay", startVideo);
@@ -138,15 +139,15 @@ function bookpooja() {
      <video id="vid" ref={videoRef}  src={video} autoPlay   playsInline preload="auto" loop/>
 </div>
 
-runforcefullyvdo();
+
 
 
 <br>
 </br>
 <div className="textbox"> 
-   <h2>  <p className="texts"> वक्रतुण्ड महाकाय कोटिसूर्य समप्रभ। |  निर्विघ्नं कुरु मे देव सर्वकार्येषु सर्वदा॥</p> <br/>
+   <h2 className="texts"> वक्रतुण्ड महाकाय कोटिसूर्य समप्रभ। |  निर्विघ्नं कुरु मे देव सर्वकार्येषु सर्वदा॥ </h2> 
    
-    <p className="texttwo">     पंडित जी सनातन सेतु |  आपकी आस्था, हमारी सेवा। </p>
+   <h2 className="texttwo">     पंडित जी सनातन सेतु |  आपकी आस्था, हमारी सेवा। 
    
     </h2> 
    
@@ -248,9 +249,10 @@ runforcefullyvdo();
 <br/> <br/><br/>
 
 
-<div className="whychoosus">
+<div className="whychoosus"> 
 
-<div className="detailbox" data-aos="fade-right">
+{/* <div className="detailbox" data-aos="fade-right"> */}
+  <div className="detailbox"style={{backgroundColor:"white"}} data-aos="fade-right">
         <div className="lastheading">
           <h1 id="redtext">PANDIT BOOKING </h1> <h1>-BOOK PANDITJI FOR PUJA</h1>
         </div>
@@ -268,14 +270,14 @@ runforcefullyvdo();
             <h2 style={{marginLeft:"0"}}>Why Choose Our Pandit Ji?</h2> <br/>
 
 <p>
-            <br/>
-            * Experienced and knowledgeable in Hindu rituals and Vedic traditions.<br/>
-            * Personalized puja arrangements according to your requirements.<br/>
-            * Services for various religious occasions and life events.<br/>
-            * Respect for regional customs, family traditions, and individual beliefs.<br/>
-            * Convenient booking for pujas at your home or preferred location.<br/>
+          
+            1️⃣  Experienced and knowledgeable in Hindu rituals and Vedic traditions.<br/><br/>
+            2️⃣  Personalized puja arrangements according to your requirements.<br/><br/>
+            3️⃣  Services for various religious occasions and life events.<br/><br/>
+            4️⃣  Respect for regional customs, family traditions, and individual beliefs.<br/><br/>
+            5️⃣  Convenient booking for pujas at your home or preferred location.<br/><br/>
 
-            Book Pandit Ji for Your Puja
+           Book Pandit Ji for Your Puja
 
             Make every auspicious occasion special with the blessings of Vedic rituals. Whatever the occasion, book Pandit Ji for a traditional and spiritually fulfilling experience.
 
@@ -284,10 +286,12 @@ runforcefullyvdo();
           Contact us today to discuss your requirements and book Pandit Ji for your next puja or religious ceremony.</p>
       </div>
 </div>
-      <div className="rightimg" data-aos="fade-left">   
+      {/* <div className="rightimg" data-aos="fade-left">  */}
+         <div className="rightimg" data-aos="fade-left">
           <img id="imgright" src={srsite} height="500px" width="600px" ></img>
       </div>
 </div>
+
 
 {/* <div 
     className="whychooseus">

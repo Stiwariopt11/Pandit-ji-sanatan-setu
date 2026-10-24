@@ -33,16 +33,14 @@ const Footer = () => {
           <div className="map" >
   <iframe
     title="Location Map"
-    src="https://maps.google.com/maps?q=28.6304,77.2177&output=embed"
-    width="100%"
+ src="https://maps.google.com/maps?q=28.563855,77.546944&output=embed"
+     width="100%"
     height="200px"
     style={{ border: 0 }}
     loading="lazy"
     allowFullScreen
   />
-</div>
-        
-        
+</div>    
     </div>
   )
 }

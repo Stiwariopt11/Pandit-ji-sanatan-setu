@@ -73,7 +73,20 @@ animation: nameanimartion 2s ease-in-out infinite alternate;
 
 
 }
+.imgpalm {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+    transform-style: preserve-3d;
+    padding: 20px;
+    border-radius: 30px;
+}
 
+.imgpalm:hover {
+    box-shadow: 5px 5px 10px rgb(38, 38, 38);
+    transform: perspective(1000px) rotateZ(-6deg) rotateX(6deg) rotateY(6deg) ;
+    }
 
 .kundalimatch{
   margin-top: 50px;
