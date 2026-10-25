@@ -58,7 +58,7 @@ useEffect(() => {
       clearInterval(retryTimer);
     }
   }, 1000);
-video.muted = true;
+video.muted = false;
   return () => {
     video.removeEventListener("loadeddata", startVideo);
     video.removeEventListener("canplay", startVideo);

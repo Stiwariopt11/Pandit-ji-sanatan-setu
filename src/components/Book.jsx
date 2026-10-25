@@ -31,22 +31,22 @@ function bookpooja() {
       <div className="threeinone" style={{ display:"flex", justifyContent:"space-evenly", width:"100vw"}}>
 
 
-        <Whatpoojacard image={temple} heading="Temple Pooja" desc="Book Pandit jee for temple pooja" scrol="onee"
+        <Whatpoojacard image={temple} heading="Pran Pratistha" desc="Book Pandit jee for moorti pran pratistha" scrol="onee"
 />
       <Whatpoojacard image={hawan} heading="Hawan & yagya" desc="for peace and prosperity"  scrol="onee" />
 
-      <Whatpoojacard image={baby} heading="Naamkaran" desc="Sacred naming ceremony" scrol="three" /> </div>
+      <Whatpoojacard image={baby} heading="Naamkaran" desc="Sacred naming ceremony" scrol="onee" /> </div>
 
 
     <div className="three" style={{ display:"flex", justifyContent:"space-evenly", width:"100vw" }}>
       
-      <Whatpoojacard image={kalash} heading="Griha Pravesh" desc="Auspecious new begining" scrol="one"/>
-      <Whatpoojacard image={upnayan} heading="Upnayan Sanskar" desc="Begin the journey of knowlwdge" scrol="three"/></div>
+      <Whatpoojacard image={kalash} heading="Griha Pravesh" desc="Auspecious new begining" scrol="onee"/>
+      <Whatpoojacard image={upnayan} heading="Upnayan Sanskar" desc="Begin the journey of knowlwdge" scrol="two" /> </div>
 
 
-      <div className="threeinone" style={{ display:"flex", justifyContent:"space-evenly", width:"100vw" }}> <Whatpoojacard image={shadi} heading="vivah sanskar" desc="Devine union for lifetime" scrol="three"/>
-      <Whatpoojacard image={fool} heading="Pitra Shanti" desc="honor your ancestors" scrol="three"/>
-      <Whatpoojacard image={kundali} heading="Astrology Consultation" desc="guidance for a brighter future" scrol="two"/> </div>
+      <div className="threeinone" style={{ display:"flex", justifyContent:"space-evenly", width:"100vw" }}> <Whatpoojacard image={shadi} heading="vivah sanskar" desc="Devine union for lifetime" scrol="two"/>
+      <Whatpoojacard image={fool} heading="Pitra Shanti" desc="honor your ancestors" scrol="two"/>
+      <Whatpoojacard image={kundali} heading="Astrology Consultation" desc="guidance for a brighter future" scrol="two" /> </div>
       
       </div> 
 
@@ -70,7 +70,7 @@ function bookpooja() {
 पूज्य महाराज जी को श्रीमद्भागवत कथा, धार्मिक अनुष्ठानों एवं वैदिक परंपराओं में अपनी भक्तिमय कथा ओजस्वी वाणी  और शास्त्रीय ज्ञान के माध्यम से वे श्रद्धालुओं को भगवान श्रीकृष्ण की दिव्य लीलाओं तथा भागवत कथा के आध्यात्मिक संदेशों से परिचित कराते हैं।
 
 श्रीमद्भागवत कथा भक्ति, ज्ञान और सदाचार का मार्ग दिखाते है। महाराज जी का उद्देश्य श्रद्धालुओं को सनातन धर्म की परंपराओं से जोड़ना और जीवन में प्रेम, धर्म, श्रद्धा एवं आध्यात्मिक मूल्यों को अपनाने की प्रेरणा देना है। </p> <br/>
-<button class="buttonbargain" style={{height:"35px", width:"150px", backgroundColor:"brown", borderRadius:"5px"}} onClick={bookpooja}> <h3>bargain and book</h3></button>
+<button class="buttonbargain" style={{height:"35px", width:"150px", backgroundColor:"brown", borderRadius:"5px"}} onClick={bookpooja}> <h3>Bargain and Book</h3></button>
 </div >
 
  <div id="onee" className="left" ><img class="img3" src={temple} alt="none" /></div>
@@ -91,7 +91,7 @@ function bookpooja() {
 <button class="buttonbargain" style={{height:"35px", width:"150px", backgroundColor:"brown", borderRadius:"5px"}} onClick={bookpooja}> <h3>bargain and book</h3></button>
     </div>
 
-    <div className="left" style={{height:"200px", width:"300"}}><img class="img3" src={kundalismall} alt="none" /></div>
+    <div className="left" id="two" style={{height:"200px", width:"300"}}><img class="img3" src={kundalismall} alt="none" /></div>
 </div>
 
 
@@ -109,7 +109,7 @@ function bookpooja() {
 
 </div>
 
-        <div className="left" ><img class="img3" src={image} alt="none" style={{width:"400", height:"300px", borderRadius:"10px", padding:"20px"}}/></div>
+        <div className="left"  id="two" ><img class="img3" src={image} alt="none" style={{width:"400", height:"300px", borderRadius:"10px", padding:"20px"}}/></div>
 
   </div>  
 

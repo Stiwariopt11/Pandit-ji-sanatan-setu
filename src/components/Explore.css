@@ -67,10 +67,49 @@ animation: nameanimartion 2s ease-in-out infinite alternate;
 
 @media (max-width: 1024px){
 
+#vdomatch{
+  width:100%;
+  padding:2px;
+}
+
+
 .imgpalm{
      height:250px;
   }
 
+.kundalimatch{
+  display:flex;
+  flex-direction: column;
+padding:15px;
+}
+
+#hidd{
+  width:100vw;
+  color:brown;
+  font-size: 16px;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+}
+#hid {
+  display: flex;
+  /* justify-content: center; */
+  /* align-items: center; */
+  color: rgb(55, 12, 147);
+  margin-top: 50px;
+  /* margin-left:30px; */
+  font-size: 23px;
+}
+#mainhead{font-size: 20px;
+display: flex;
+justify-content: center;
+}
+
+
+#mainhead1{
+  font-size: 19px;
+  width:auto;
+}
 
 }
 .imgpalm {
@@ -79,38 +118,36 @@ animation: nameanimartion 2s ease-in-out infinite alternate;
     object-fit: cover;
     transition: transform 0.3s ease;
     transform-style: preserve-3d;
-    padding: 20px;
-    border-radius: 30px;
+    padding: 3px;
+    border-radius: 10px;
 }
 
-.imgpalm:hover {
-    box-shadow: 5px 5px 10px rgb(38, 38, 38);
-    transform: perspective(1000px) rotateZ(-6deg) rotateX(6deg) rotateY(6deg) ;
-    }
+#mainhead, #mainhead1{
+  color:rgb(142, 19, 19);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 .kundalimatch{
   margin-top: 50px;
   display:flex;
-  flex-direction: row;
-gap:100px;
-padding: 20px;
+gap:30px;
+padding: 0px;
 justify-content: center;
 align-items: center;
 }
 
 .kundalimatchvdo{
-  margin-left: 20px ;
-  margin-top: 30px;
+
+  margin-top: 0px;
   transition:all 0.3s ease-in-out;
  width: fit-content;
   border-radius:30%;
-  /* box-shadow: 5px 5px 10px gray; */
+  
 }
   
-#vdomatch{
-border-radius:10%;
-  box-shadow: 5px 5px 10px gray;
-}
+
 
 
 .kundalimatchvdo:hover{
@@ -126,3 +163,33 @@ transform: scale(1.1)
 
   font-size: large;
 }
+
+
+#hid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: brown;
+  margin-top: 50px;
+}
+
+
+
+
+.copiedbutton{
+  height: 40px;
+
+  background-color: rgb(238, 144, 43);
+
+  border: 1px solid green;
+
+  padding: 5px;
+
+  border-radius: 5px;
+
+  box-shadow: 5px 5px 10px gray;
+cursor: pointer;
+animation: nameanimartion 2s ease-in-out infinite alternate;
+}
+
+.copiedbutton:hover{ transform:scale(1.1)}

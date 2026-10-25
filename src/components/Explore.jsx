@@ -16,9 +16,9 @@ const Explore = () => {
     <div style={{display:"flex", justifyContent:"center", flexDirection:"column"}}>
 
 <br/><br/>
-      <h1 style={{display:"flex", justifyContent:"center", color:"black"}}>  Discover What Your Palm Reveals</h1>  <br/> <br/>
+      <h1 id="mainhead">  Discover What Your Palm Reveals</h1>  <br/> <br/>
 
-<h2 style={{display:"flex", justifyContent:"center"}}>Your hands tell a story || Discover its traditional meaning with Hast Rekha Vidya.</h2> <br/><br/>
+<h2 id="mainhead1">Your kundali tells your story || Discover its traditional meaning with Guru ji.</h2> <br/><br/>
 
 
 
@@ -27,23 +27,31 @@ const Explore = () => {
   <button id="buttonkadabba" onClick={showpalm}><h3>show kundali to pandit jee</h3></button> 
   </div>
 
+<div><h1 id="hid"> Match Kundalis for Marriage</h1>
+</div>
+  
 
-  <h1 style={{display:"flex", justifyContent:"center", color:"brown", marginTop:"50px"}}> Match Kundalis for Marriage</h1>
+
 <div className="kundalimatch"> 
- 
 
-<div className="kundalimatchvdo"> 
+  <div className="kundalimatchvdo"> 
   <video id="vdomatch" src={kundalivdo} autoPlay playsInline loop height="300px"/>
+  </div>
+<div>
+
+<button  className="copiedbutton" onClick={showpalm}><h3>Test your faith</h3></button> 
 </div>
 
-<button id="buttonkadabba" class="copiedbutton" onClick={showpalm}><h3>Test your faith</h3></button> 
 <div className="panditdetails">
 <p> 
-<h1> परम श्रद्धेय पंडित जी के सानिध्य में कुंडली मार्गदर्शन</h1> <br/>
+<h1 id="hidd"> परम श्रद्धेय पंडित जी के सानिध्य में कुंडली मार्गदर्शन</h1> <br/>
 <p>परम श्रद्धेय पंडित जी के मार्गदर्शन में अपनी जन्म कुंडली का गहन अध्ययन कराएँ और वैदिक ज्योतिष के माध्यम से अपने जीवन के विभिन्न पहलुओं को समझें। जन्म कुंडली में ग्रहों की स्थिति, राशियों एवं नक्षत्रों के आधार पर जीवन, करियर, विवाह, पारिवारिक सुख और भविष्य से जुड़े पारंपरिक ज्योतिषीय मार्गदर्शन प्राप्त करें।</p>
 </p>
 </div>
 </div>
+
+
+
 <br/> <br/>
 
     </div > <h2 style={{color:"brown"}}>1️⃣ The Ancient Science of Kundali</h2>

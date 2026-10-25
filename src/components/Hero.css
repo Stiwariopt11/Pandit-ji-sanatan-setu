@@ -35,15 +35,11 @@
     object-fit: cover;
     transition: transform 0.3s ease;
     transform-style: preserve-3d;
-    padding: 20px;
-    border-radius: 30px;
+  padding: 3px;
+    border-radius: 10px;
 }
 
-#vid:hover {
-    box-shadow: 5px 5px 10px rgb(38, 38, 38);
-    transform: perspective(1000px) rotateX(4deg) rotateY(4deg) rotateZ(4deg);
-    
-}
+
 
 #vid {
     cursor: pointer;
@@ -77,7 +73,7 @@
 .texts{
     margin-left: 0px;
     color:black;
-    font-size: 11px;
+    /* font-size: 11px; */
 }
 .textbox{
 
@@ -179,7 +175,22 @@ max-height:300px;
     margin:0px
 }
 
+
+
+.texts{
+    margin-left: 0px;
+    color:black;
+    font-size: 11px;
 }
+
+}
+
+.context{
+
+    max-height: 400px;
+    overflow-y: scroll;
+}
+
 
 .rightimg img {
     height: 500px;

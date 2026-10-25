@@ -22,7 +22,7 @@ function colordim(e) {
   backgroundRepeat: "no-repeat", shadow:"5px 5px 10px black", borderRadius:"20px", boxShadow:"5px 5px 8px orange ", position:"relative" }}>
        
         
-        <div className="detailpart" style={{ height:"90px", width:"100%", backgroundColor:"white", position:"absolute", zIndex:"2", bottom:"0", borderRadius:"10px", border:"1px solid orange"}}>
+        <div className="detailpart" style={{ height:"90px", width:"100%", backgroundColor:"white", position:"absolute", zIndex:"0", bottom:"0", borderRadius:"10px", border:"1px solid orange"}}>
 
         <h2>{props.heading}</h2>
         <div style={{display:"flex"}}>
