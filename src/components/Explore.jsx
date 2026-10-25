@@ -24,7 +24,7 @@ const Explore = () => {
 
 <div className="buttonkadiv" style={{display:"flex", justifyContent:"center", color:"black"}}> 
   
-  <button id="buttonkadabba" onClick={showpalm}><h3>Show kundali to pandit ji</h3></button> 
+  <button id="buttonkadabba" onClick={showpalm}><h3>Show Kundali to Pandit Ji</h3></button> 
   </div>
 
 <div><h1 id="hid"> Match Kundalis for Marriage</h1>

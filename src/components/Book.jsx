@@ -45,7 +45,7 @@ function bookpooja() {
 
 
       <div className="threeinone" style={{ display:"flex", justifyContent:"space-evenly", width:"100vw" }}> <Whatpoojacard image={shadi} heading="vivah sanskar" desc="Devine union for lifetime" scrol="two"/>
-      <Whatpoojacard image={fool} heading="Pitra Shanti" desc="honor your ancestors" scrol="two"/>
+      <Whatpoojacard image={fool} heading="Pitra Shanti" desc="Honor your ancestors" scrol="two"/>
       <Whatpoojacard image={kundali} heading="Astrology Consultation" desc="Guidance for a brighter future" scrol="two" /> </div>
       
       </div> 
@@ -88,7 +88,7 @@ function bookpooja() {
 पूज्य पंडित जी को वैदिक ज्योतिष, जन्म कुंडली विश्लेषण एवं ग्रह-नक्षत्रों के अध्ययन के क्षेत्र में 25+ वर्षों से अधिक का अनुभव है। वे पारंपरिक ज्योतिषीय सिद्धांतों के अनुसार जन्म कुंडली का विश्लेषण करते हैं और श्रद्धालुओं को उनके जीवन, करियर, विवाह एवं पारिवारिक मामलों से जुड़े ज्योतिषीय पहलुओं को समझने में मार्गदर्शन प्रदान करते हैं।
 
 कुंडली व्यक्ति के जन्म के समय ग्रहों और नक्षत्रों की स्थिति का ज्योतिषीय विवरण है। इसके माध्यम से पारंपरिक मान्यताओं के अनुसार व्यक्ति के जीवन के विभिन्न पहलुओं का आकलन किया जाता है। पंडित जी की सरल एवं सहज व्याख्या शैली श्रद्धालुओं को ज्योतिष शास्त्र की बारीकियों को समझने और जीवन के महत्वपूर्ण निर्णयों पर विचार करने में सहायता प्रदान करती है। </p> <br/>
-<button class="buttonbargain" style={{height:"35px", width:"150px", backgroundColor:"brown", borderRadius:"5px"}} onClick={bookpooja}> <h3>bargain and book</h3></button>
+<button class="buttonbargain" style={{height:"35px", width:"150px", backgroundColor:"brown", borderRadius:"5px"}} onClick={bookpooja}> <h3>Bargain and Book</h3></button>
     </div>
 
     <div className="left" id="two" style={{height:"200px", width:"300"}}><img class="img3" src={kundalismall} alt="none" /></div>
@@ -105,7 +105,7 @@ function bookpooja() {
 
 सनातन सेतु केवल धार्मिक सेवाओं का माध्यम नहीं, बल्कि भक्ति, आध्यात्मिक मार्गदर्शन और सनातन संस्कृति से जुड़ने का एक विश्वसनीय सेतु है। </p> <br/>
 
-<button class="buttonbargain" style={{height:"35px", width:"150px", backgroundColor:"brown", borderRadius:"5px"}} onClick={bookpooja}><h3>bargain and book</h3> </button>
+<button class="buttonbargain" style={{height:"35px", width:"150px", backgroundColor:"brown", borderRadius:"5px"}} onClick={bookpooja}><h3>Bargain and Book</h3> </button>
 
 </div>
 
