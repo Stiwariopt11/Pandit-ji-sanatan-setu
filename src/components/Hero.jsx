@@ -34,7 +34,7 @@ useEffect(() => {
   const video = videoRef.current;
   if (!video) return;
 
-  video.muted = flase;
+  video.muted = false;
 
   let retryTimer;
 
