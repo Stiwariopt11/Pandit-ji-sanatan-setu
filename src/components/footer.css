@@ -35,7 +35,7 @@ font-weight: 900;
 }
 
 .map{
-height:400px;
+
 margin:50px; 
 transition: all 0.3s ease-in-out;
 
@@ -56,5 +56,11 @@ height: auto;
 justify-content: center;
 align-items: center;
 gap:15px;
-}   
+} 
+#li{
+ display: flex;
+ flex-direction: column;
+ align-self: center;
+ margin-left: 100px;;
+}  
 }

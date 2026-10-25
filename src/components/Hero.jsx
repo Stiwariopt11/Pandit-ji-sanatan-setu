@@ -201,7 +201,7 @@ function bookpooja() {
 <div className="buttonarea" style={{backgroundColor:"beige", borderRadius:"30px", display:"flex", gap:"30px", justifyContent:"center", maarginTop:"60px"}}>
     <h1> Contact Us:</h1>
 
-<div style={{display:"flex", flexDirection:"row", gap:"50px"}}><button id="buttonn"><h3 style={{color:"black"}} onClick={handleCall} >Call us</h3></button>
+<div style={{display:"flex", flexDirection:"row", gap:"50px"}}><button id="buttonn"><h3 style={{color:"black"}} onClick={handleCall} >Call Us</h3></button>
 
 <button id="buttonn"onClick={bookpooja} ><h3 style={{color:"black"}}>Book a Pooja</h3></button></div>
 <a
@@ -209,7 +209,7 @@ function bookpooja() {
   target="_blank"
   rel="noopener noreferrer"
 >
-  <button id="buttonn" style={{color:"black", marginLeft:"20px"}}> <h3 style={{color:"black"}}> WhatsApp message</h3></button>
+  <button id="buttonn" style={{color:"black", marginLeft:"20px"}}> <h3 style={{color:"black"}}> WhatsApp Message</h3></button>
 </a>
 
      </div>
@@ -222,7 +222,7 @@ function bookpooja() {
 
     description= "सनातन धर्म, वैदिक परंपराओं एवं धार्मिक ग्रंथों के ज्ञान से जुड़ें।"
 
-    services= "श्रीमद्भागवत महापुराण कथा, श्री राम कथा,श्री शिव महापुराण कथा, देवी भागवत कथा, कथा आयोजन की बुकिंग, प्रवचन एवं आध्यात्मिक मार्गदर्शन" /> 
+    services= "श्रीमद्भागवत महापुराण कथा, श्री राम कथा,श्री शिव महापुराण कथा, देवी भागवत कथा, कथा आयोजन की बुकिंग, प्रवचन एवं आध्यात्मिक मार्गदर्शन|" /> 
     <Cardshero title="ज्योतिष एवं कुंडली परामर्श"
 
   description="वैदिक ज्योतिष के माध्यम से अपनी जन्मपत्री, ग्रहों की स्थिति एवं जीवन से जुड़े महत्वपूर्ण प्रश्नों पर मार्गदर्शन प्राप्त करें।"

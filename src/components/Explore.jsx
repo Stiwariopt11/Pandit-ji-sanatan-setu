@@ -16,7 +16,7 @@ const Explore = () => {
     <div style={{display:"flex", justifyContent:"center", flexDirection:"column"}}>
 
 <br/><br/>
-      <h1 id="mainhead">  Discover What Your Palm Reveals</h1>  <br/> <br/>
+      <h1 id="mainhead">  Discover What Your Kundali Reveals</h1>  <br/> <br/>
 
 <h2 id="mainhead1">Your kundali tells your story || Discover its traditional meaning with Guru ji.</h2> <br/><br/>
 
@@ -24,7 +24,7 @@ const Explore = () => {
 
 <div className="buttonkadiv" style={{display:"flex", justifyContent:"center", color:"black"}}> 
   
-  <button id="buttonkadabba" onClick={showpalm}><h3>show kundali to pandit jee</h3></button> 
+  <button id="buttonkadabba" onClick={showpalm}><h3>Show kundali to pandit ji</h3></button> 
   </div>
 
 <div><h1 id="hid"> Match Kundalis for Marriage</h1>
@@ -39,7 +39,7 @@ const Explore = () => {
   </div>
 <div>
 
-<button  className="copiedbutton" onClick={showpalm}><h3>Test your faith</h3></button> 
+<button  className="copiedbutton" onClick={showpalm}><h3>Test Your Faith</h3></button> 
 </div>
 
 <div className="panditdetails">

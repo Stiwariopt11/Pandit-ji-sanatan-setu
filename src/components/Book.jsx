@@ -31,9 +31,9 @@ function bookpooja() {
       <div className="threeinone" style={{ display:"flex", justifyContent:"space-evenly", width:"100vw"}}>
 
 
-        <Whatpoojacard image={temple} heading="Pran Pratistha" desc="Book Pandit jee for moorti pran pratistha" scrol="onee"
+        <Whatpoojacard image={temple} heading="Pran Pratistha" desc="Book Pandit ji for moorti pran pratistha" scrol="onee"
 />
-      <Whatpoojacard image={hawan} heading="Hawan & yagya" desc="for peace and prosperity"  scrol="onee" />
+      <Whatpoojacard image={hawan} heading="Hawan & yagya" desc="For peace and prosperity"  scrol="onee" />
 
       <Whatpoojacard image={baby} heading="Naamkaran" desc="Sacred naming ceremony" scrol="onee" /> </div>
 
@@ -41,12 +41,12 @@ function bookpooja() {
     <div className="three" style={{ display:"flex", justifyContent:"space-evenly", width:"100vw" }}>
       
       <Whatpoojacard image={kalash} heading="Griha Pravesh" desc="Auspecious new begining" scrol="onee"/>
-      <Whatpoojacard image={upnayan} heading="Upnayan Sanskar" desc="Begin the journey of knowlwdge" scrol="two" /> </div>
+      <Whatpoojacard image={upnayan} heading="Upnayan Sanskar" desc="Begin the journey of knowledge" scrol="two" /> </div>
 
 
       <div className="threeinone" style={{ display:"flex", justifyContent:"space-evenly", width:"100vw" }}> <Whatpoojacard image={shadi} heading="vivah sanskar" desc="Devine union for lifetime" scrol="two"/>
       <Whatpoojacard image={fool} heading="Pitra Shanti" desc="honor your ancestors" scrol="two"/>
-      <Whatpoojacard image={kundali} heading="Astrology Consultation" desc="guidance for a brighter future" scrol="two" /> </div>
+      <Whatpoojacard image={kundali} heading="Astrology Consultation" desc="Guidance for a brighter future" scrol="two" /> </div>
       
       </div> 
 

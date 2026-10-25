@@ -116,7 +116,10 @@ color: black;
     display: flex;
 flex-direction: column-reverse;
 color: black;
-margin-top: 90px;
+margin-top: 10px;
+justify-content: center;
+align-items: center;
+gap:20px;
  }
 
 
