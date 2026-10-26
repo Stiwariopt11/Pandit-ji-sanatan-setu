@@ -25,8 +25,9 @@ const Footer = () => {
         
        <div>
         <br/>
+        <div>
         <ol id="li"><li> Puja & Path</li><li>Griha Pravesh Puja</li><li>Marriage Puja</li><li> Satyanarayan Katha</li><li>Rudrabhishek</li><li>Havan & Jaap</li><li>Online Puja Consultation</li></ol>
-        </div></div>
+        </div></div></div>
        
        
 

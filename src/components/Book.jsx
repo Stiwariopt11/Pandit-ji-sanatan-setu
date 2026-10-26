@@ -13,7 +13,7 @@ import fool from "../assets/fool.jpeg";
 import baby from "../assets/baby.jpeg";
 import image from "../assets/image.png";
 import { useEffect } from 'react';
-
+import { Helmet } from "react-helmet-async";
 
 const Book = () => {
 
@@ -25,6 +25,39 @@ function bookpooja() {
 
 
   return (
+
+
+
+
+    <>
+
+    <Helmet>
+
+      <title>Book Pandit Ji Online | Pandit Ji Sanatan Setu</title>
+
+      <meta
+
+        name="description"
+
+        content="Book experienced Pandits for Puja, Hawan, Griha Pravesh, Vivah Sanskar and Kundali consultation."
+
+      />
+
+      <link
+
+        rel="canonical"
+
+        href="https://YOUR-VERCEL-DOMAIN.vercel.app/book"
+
+      />
+
+    </Helmet>
+
+
+
+
+
+
     <div className="bookcontainer">
      <div style={{marginTop:"150px" , zIndex:"0", display:"flex",flexDirection:"column", gap:"20px", backgroundColor:"white" }} >
      
@@ -116,7 +149,7 @@ function bookpooja() {
 
 
     </div>
-    </div>
+    </div></>
   )
 }
 

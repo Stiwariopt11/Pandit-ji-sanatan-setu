@@ -9,7 +9,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { Link } from 'react-router-dom'
 import { useNavigate } from "react-router-dom";
-
+import { Helmet } from "react-helmet-async";
 
 const imageslst = Object.values(
   import.meta.glob('../assets/website_photos/*.{png,jpg,jpeg,webp}', {
@@ -133,6 +133,73 @@ function bookpooja() {
 
 
   return (
+  <>
+    <Helmet>
+      <title>
+        Pandit Ji Sanatan Setu | Online Puja Booking & Pandit Services
+      </title>
+
+      <meta
+        name="description"
+        content="Book experienced Pandits online for Puja, Hawan, Griha Pravesh, Vivah Sanskar, Satyanarayan Katha, Rudrabhishek and Vedic rituals with Pandit Ji Sanatan Setu."
+      />
+
+      <meta
+        name="robots"
+        content="index, follow"
+      />
+
+      <link
+        rel="canonical"
+        href="https://YOUR-VERCEL-DOMAIN.vercel.app/"
+      />
+
+      <meta
+        property="og:title"
+        content="Pandit Ji Sanatan Setu | Online Puja Booking"
+      />
+
+      <meta
+        property="og:description"
+        content="Book experienced Pandits for Hindu puja, havan, religious ceremonies and spiritual guidance."
+      />
+
+      <meta
+        property="og:type"
+        content="website"
+      />
+
+      <meta
+        property="og:url"
+        content="https://YOUR-VERCEL-DOMAIN.vercel.app/"
+      />
+    </Helmet>
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
 
     <div className="herodiv" style={{backgroundColor:"white"}}>
  <div id="animatedvdo">
@@ -341,7 +408,7 @@ Contact us today to discuss your requirements and book Pandit Ji for your next p
 </div> */}
 
 <br/> <br/><br/><br/> 
-</div>
+</div> </>
 
 
   );

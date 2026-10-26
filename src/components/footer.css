@@ -60,7 +60,7 @@ gap:15px;
 #li{
  display: flex;
  flex-direction: column;
- align-self: center;
- margin-left: 100px;;
+ /* align-self: center; */
+ margin-left: 0px;;
 }  
 }

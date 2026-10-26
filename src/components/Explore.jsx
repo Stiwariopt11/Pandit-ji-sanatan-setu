@@ -2,12 +2,59 @@ import React from 'react'
 import "./Explore.css"
 import palmistry from "../assets/palmistry.png";
 import kundalivdo from "../assets/kundalimatch.mp4";
+import { Helmet } from "react-helmet-async";
 const Explore = () => {
 
   function showpalm() {
    window.open("https://forms.gle/iKC5grjMYqJKgbYU9")
 }
   return (
+
+
+
+  <>
+    <Helmet>
+      <title>
+        Kundali Matching & Vedic Astrology Consultation | Sanatan Setu
+      </title>
+
+      <meta
+        name="description"
+        content="Explore Janam Kundali, Kundali matching for marriage, Vedic astrology and traditional birth chart guidance with experienced Pandit Ji at Sanatan Setu."
+      />
+
+      <meta name="robots" content="index, follow" />
+
+      <link
+        rel="canonical"
+        href="https://YOUR-VERCEL-DOMAIN.vercel.app/explore"
+      />
+
+      <meta
+        property="og:title"
+        content="Kundali Matching & Vedic Astrology | Sanatan Setu"
+      />
+
+      <meta
+        property="og:description"
+        content="Get traditional Kundali guidance, marriage matching and Vedic astrology consultation from experienced Pandit Ji."
+      />
+
+      <meta property="og:type" content="website" />
+
+      <meta
+        property="og:url"
+        content="https://YOUR-VERCEL-DOMAIN.vercel.app/explore"
+      />
+    </Helmet>
+
+  
+
+
+
+
+
+
     <div className="explorecontainer">
       <div className="palmimg">
         <img className="imgpalm" src={palmistry} alt="none" height="500px" width="100%"/>
@@ -69,7 +116,7 @@ const Explore = () => {
    
    <h2 style={{color:"brown"}}> 5️⃣ Your Journey Through Vedic Astrology</h2>
    <p className='ptext'>Explore the ancient wisdom of Vedic astrology through your Janam Kundali. Understand the traditional significance of planetary positions, discover astrological perspectives on career and relationships, and seek guidance from experienced astrologers for greater clarity on your life’s journey.</p><br/> <br/><br/>
-    </div> 
+    </div> </>
   )
 }
 
