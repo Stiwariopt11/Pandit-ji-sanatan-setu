@@ -265,7 +265,7 @@ function bookpooja() {
 
 </div>
 
-<div className="buttonarea" style={{backgroundColor:"beige", borderRadius:"30px", display:"flex", gap:"30px", justifyContent:"center", maarginTop:"60px"}}>
+<div className="buttonarea" style={{backgroundColor:"beige", borderRadius:"30px", display:"flex", gap:"30px", justifyContent:"center", maarginTop:"60px", flexShrink:"0"}}>
     <h1> Contact Us:</h1>
 
 <div style={{display:"flex", flexDirection:"row", gap:"50px"}}><button id="buttonn"><h3 style={{color:"black"}} onClick={handleCall} >Call Us</h3></button>
