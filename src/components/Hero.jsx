@@ -151,7 +151,7 @@ function bookpooja() {
 
       <link
         rel="canonical"
-        href="https://pandit-ji-sanatan-setu.in/"
+        href="https://www.pandit-ji-sanatan-setu.in/"
       />
 
       <meta
@@ -171,7 +171,7 @@ function bookpooja() {
 
       <meta
         property="og:url"
-        content="https://pandit-ji-sanatan-setu.in/"
+        content="https://www.pandit-ji-sanatan-setu.in/"
       />
     </Helmet>
 

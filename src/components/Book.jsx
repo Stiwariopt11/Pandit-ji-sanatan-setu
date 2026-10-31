@@ -43,7 +43,7 @@ function bookpooja() {
 
   <link
     rel="canonical"
-    href="https://pandit-ji-sanatan-setu.in/book"
+    href="https://www.pandit-ji-sanatan-setu.in/book"
   />
 
   {/* Open Graph */}
@@ -58,11 +58,11 @@ function bookpooja() {
   />
   <meta
     property="og:url"
-    content="https://pandit-ji-sanatan-setu.in/book"
+    content="https://www.pandit-ji-sanatan-setu.in/book"
   />
   <meta
     property="og:image"
-    content="https://pandit-ji-sanatan-setu.in/favicon.jpg"
+    content="https://www.pandit-ji-sanatan-setu.in/favicon.jpg"
   />
 </Helmet>
 

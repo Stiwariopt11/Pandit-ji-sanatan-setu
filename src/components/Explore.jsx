@@ -25,7 +25,7 @@ const Explore = () => {
 
   <link
     rel="canonical"
-    href="https://pandit-ji-sanatan-setu.in/explore"
+    href="https://www.pandit-ji-sanatan-setu.in/explore"
   />
 
   {/* Open Graph */}
@@ -43,12 +43,12 @@ const Explore = () => {
 
   <meta
     property="og:url"
-    content="https://pandit-ji-sanatan-setu.in/explore"
+    content="https://www.pandit-ji-sanatan-setu.in/explore"
   />
 
   <meta
     property="og:image"
-    content="https://pandit-ji-sanatan-setu.in/favicon.jpg"
+    content="https://www.pandit-ji-sanatan-setu.in/favicon.jpg"
   />
 </Helmet>
 
