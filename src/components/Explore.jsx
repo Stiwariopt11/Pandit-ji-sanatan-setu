@@ -27,7 +27,7 @@ const Explore = () => {
 
       <link
         rel="canonical"
-        href="https://YOUR-VERCEL-DOMAIN.vercel.app/explore"
+        href="https://pandit-ji-sanatan-setu.in/explore"
       />
 
       <meta
@@ -44,7 +44,7 @@ const Explore = () => {
 
       <meta
         property="og:url"
-        content="https://YOUR-VERCEL-DOMAIN.vercel.app/explore"
+        content="https://pandit-ji-sanatan-setu.in/explore"
       />
     </Helmet>
 

@@ -39,7 +39,7 @@ function bookpooja() {
 
         name="description"
 
-        content="Book experienced Pandits for Puja, Hawan, Griha Pravesh, Vivah Sanskar and Kundali consultation."
+        content="Book experienced Pandit for Puja, Hawan, Griha Pravesh, Vivah Sanskar and Kundali for india and abroad at lowest cost for consultation."
 
       />
 
@@ -47,9 +47,7 @@ function bookpooja() {
 
         rel="canonical"
 
-        href="https://YOUR-VERCEL-DOMAIN.vercel.app/book"
-
-      />
+  href="https://pandit-ji-sanatan-setu.in/book"      />
 
     </Helmet>
 

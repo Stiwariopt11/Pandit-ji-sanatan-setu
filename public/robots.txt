@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://pandit-ji-sanatan-setu.vercel.app/sitemap.xml
+Sitemap: https://pandit-ji-sanatan-setu.in/sitemap.xml

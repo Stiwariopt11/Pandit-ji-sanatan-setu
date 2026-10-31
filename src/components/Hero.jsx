@@ -151,7 +151,7 @@ function bookpooja() {
 
       <link
         rel="canonical"
-        href="https://YOUR-VERCEL-DOMAIN.vercel.app/"
+        href="https://pandit-ji-sanatan-setu.in/"
       />
 
       <meta
@@ -171,7 +171,7 @@ function bookpooja() {
 
       <meta
         property="og:url"
-        content="https://YOUR-VERCEL-DOMAIN.vercel.app/"
+        content="https://pandit-ji-sanatan-setu.in/"
       />
     </Helmet>
 
