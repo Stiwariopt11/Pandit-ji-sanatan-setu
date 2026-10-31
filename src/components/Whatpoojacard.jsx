@@ -13,9 +13,16 @@ function colordim(e) {
   
 }
 
+
+
+
   return (
     <div >
-      <div className="detailincard">
+      <div className="detailincard" style={{ height:"200px", width:"350px", backgroundImage:`url(${props.image})`, backgroundSize: "cover",
+
+  backgroundPosition: "center",
+
+  backgroundRepeat: "no-repeat", shadow:"5px 5px 10px black", borderRadius:"20px", boxShadow:"5px 5px 8px orange ", position:"relative" }}>
        
         
         <div className="detailpart" style={{ height:"90px", width:"100%", backgroundColor:"white", position:"absolute", zIndex:"0", bottom:"0", borderRadius:"10px", border:"1px solid orange"}}>

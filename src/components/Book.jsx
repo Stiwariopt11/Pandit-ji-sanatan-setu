@@ -46,7 +46,7 @@ function bookpooja() {
     href="https://www.pandit-ji-sanatan-setu.in/book"
   />
 
-  {/* Open Graph */}
+  
   <meta property="og:type" content="website" />
   <meta
     property="og:title"
