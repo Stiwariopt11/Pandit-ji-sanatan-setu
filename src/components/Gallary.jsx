@@ -102,40 +102,40 @@ function bookpooja() {
     
 
 <div className="imgdiv">
-  <img src={images[11]} alt="Image 1" className="imgcls" loading="lazy" />
-  <img src={images[1]} alt="Image 2" className="imgcls" loading="lazy" />
-  <img src={images[2]} alt="Image 3" className="imgcls" loading="lazy" />
-  <img src={images[3]} alt="Image 4" className="imgcls" loading="lazy" />
-  <img src={images[4]} alt="Image 5" className="imgcls" loading="lazy" />
-  <img src={images[5]} alt="Image 6" className="imgcls" loading="lazy" />
-  <img src={images[6]} alt="Image 7" className="imgcls" loading="lazy" />
-  <img src={images[7]} alt="Image 8" className="imgcls" loading="lazy" />
-  <img src={images[8]} alt="Image 9" className="imgcls" loading="lazy" />
-  <img src={images[9]} alt="Image 10" className="imgcls" loading="lazy" />
-  <img src={images[10]} alt="Image 11" className="imgcls" loading="lazy" />
-  <img src={images[12]} alt="Image 12" className="imgcls" loading="lazy" />
-  <img src={images[0]} alt="Image 13" className="imgcls" loading="lazy" />
-  <img src={images[13]} alt="Image 14" className="imgcls" loading="lazy" />
-  <img src={images[14]} alt="Image 15" className="imgcls" loading="lazy" />
-  <img src={images[15]} alt="Image 16" className="imgcls" loading="lazy" />
-  <img src={images[16]} alt="Image 17" className="imgcls" loading="lazy" />
-  <img src={images[17]} alt="Image 18" className="imgcls" loading="lazy" />
-  <img src={images[18]} alt="Image 19" className="imgcls" loading="lazy" />
-  <img src={images[19]} alt="Image 20" className="imgcls" loading="lazy" />
-  <img src={images[20]} alt="Image 21" className="imgcls" loading="lazy" />
-  <img src={images[21]} alt="Image 22" className="imgcls" loading="lazy" />
-  <img src={images[22]} alt="Image 23" className="imgcls" loading="lazy" />
-  <img src={images[23]} alt="Image 24" className="imgcls" loading="lazy" />
-  <img src={images[24]} alt="Image 25" className="imgcls" loading="lazy" />
-  <img src={images[25]} alt="Image 26" className="imgcls" loading="lazy" />
-  <img src={images[26]} alt="Image 27" className="imgcls" loading="lazy" />
-  <img src={images[27]} alt="Image 28" className="imgcls" loading="lazy" />
-  <img src={images[28]} alt="Image 29" className="imgcls" loading="lazy" />
-  <img src={images[29]} alt="Image 30" className="imgcls" loading="lazy" />
-  <img src={images[30]} alt="Image 31" className="imgcls" loading="lazy" />
-  <img src={images[31]} alt="Image 32" className="imgcls" loading="lazy" />
-  <img src={images[32]} alt="Image 33" className="imgcls" loading="lazy" />
-  <img src={images[33]} alt="Image 34" className="imgcls" loading="lazy" />
+  <img src={images[11]} alt="Pandit performing a traditional Hindu puja ceremony" className="imgcls" loading="lazy" />
+  <img src={images[1]} alt="Pandit performing a traditional Hindu puja ceremony" className="imgcls" loading="lazy" />
+  <img src={images[2]} alt="Pandit performing a traditional Hindu puja ceremony" className="imgcls" loading="lazy" />
+  <img src={images[3]} alt="Pandit performing a traditional Hindu puja ceremony" className="imgcls" loading="lazy" />
+  <img src={images[4]} alt="Pandit performing a traditional Hindu puja ceremony" className="imgcls" loading="lazy" />
+  <img src={images[5]} alt="Pandit performing a traditional Hindu puja ceremony" className="imgcls" loading="lazy" />
+  <img src={images[6]} alt="Pandit performing a traditional Hindu puja ceremony" className="imgcls" loading="lazy" />
+  <img src={images[7]} alt="Pandit performing a traditional Hindu puja ceremony" className="imgcls" loading="lazy" />
+  <img src={images[8]} alt="Pandit performing a traditional Hindu puja ceremony" className="imgcls" loading="lazy" />
+  <img src={images[9]} alt="Pandit performing a traditional Hindu puja ceremony" className="imgcls" loading="lazy" />
+  <img src={images[10]} alt="Pandit performing a traditional Hindu puja ceremony" className="imgcls" loading="lazy" />
+  <img src={images[12]} alt="Pandit performing a traditional Hindu puja ceremony" className="imgcls" loading="lazy" />
+  <img src={images[0]} alt="Pandit performing a traditional Hindu puja ceremony" className="imgcls" loading="lazy" />
+  <img src={images[13]} alt="Pandit performing a traditional Hindu puja ceremony" className="imgcls" loading="lazy" />
+  <img src={images[14]} alt="Pandit performing a traditional Hindu puja ceremony" className="imgcls" loading="lazy" />
+  <img src={images[15]} alt="Pandit performing a traditional Hindu puja ceremony" className="imgcls" loading="lazy" />
+  <img src={images[16]} alt="Pandit performing a traditional Hindu puja ceremony" className="imgcls" loading="lazy" />
+  <img src={images[17]} alt="Pandit performing a traditional Hindu puja ceremony" className="imgcls" loading="lazy" />
+  <img src={images[18]} alt="Pandit performing a traditional Hindu puja ceremony" className="imgcls" loading="lazy" />
+  <img src={images[19]} alt="Pandit performing a traditional Hindu puja ceremony" className="imgcls" loading="lazy" />
+  <img src={images[20]} alt="Pandit performing a traditional Hindu puja ceremony" className="imgcls" loading="lazy" />
+  <img src={images[21]} alt="Pandit performing a traditional Hindu puja ceremony" className="imgcls" loading="lazy" />
+  <img src={images[22]} alt="Pandit performing a traditional Hindu puja ceremony" className="imgcls" loading="lazy" />
+  <img src={images[23]} alt="Pandit performing a traditional Hindu puja ceremony" className="imgcls" loading="lazy" />
+  <img src={images[24]} alt="Pandit performing a traditional Hindu puja ceremony" className="imgcls" loading="lazy" />
+  <img src={images[25]} alt="Pandit performing a traditional Hindu puja ceremony" className="imgcls" loading="lazy" />
+  <img src={images[26]} alt="Pandit performing a traditional Hindu puja ceremony" className="imgcls" loading="lazy" />
+  <img src={images[27]} alt="Pandit performing a traditional Hindu puja ceremony" className="imgcls" loading="lazy" />
+  <img src={images[28]} alt="Pandit performing a traditional Hindu puja ceremony" className="imgcls" loading="lazy" />
+  <img src={images[29]} alt="Pandit performing a traditional Hindu puja ceremony" className="imgcls" loading="lazy" />
+  <img src={images[30]} alt="Pandit performing a traditional Hindu puja ceremony" className="imgcls" loading="lazy" />
+  <img src={images[31]} alt="Pandit performing a traditional Hindu puja ceremony" className="imgcls" loading="lazy" />
+  <img src={images[32]} alt="Pandit performing a traditional Hindu puja ceremony" className="imgcls" loading="lazy" />
+  <img src={images[33]} alt="Pandit performing a traditional Hindu puja ceremony" className="imgcls" loading="lazy" />
   
  
 </div>

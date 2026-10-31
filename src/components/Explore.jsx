@@ -13,40 +13,44 @@ const Explore = () => {
 
 
   <>
-    <Helmet>
-      <title>
-        Kundali Matching & Vedic Astrology Consultation | Sanatan Setu
-      </title>
+   <Helmet>
+  <title>Kundali Matching & Vedic Astrology | Pandit Ji Sanatan Setu</title>
 
-      <meta
-        name="description"
-        content="Explore Janam Kundali, Kundali matching for marriage, Vedic astrology and traditional birth chart guidance with experienced Pandit Ji at Sanatan Setu."
-      />
+  <meta
+    name="description"
+    content="Explore Janam Kundali, marriage Kundali matching and Vedic astrology. Get traditional birth chart guidance and consultation from experienced Pandits."
+  />
 
-      <meta name="robots" content="index, follow" />
+  <meta name="robots" content="index, follow" />
 
-      <link
-        rel="canonical"
-        href="https://pandit-ji-sanatan-setu.in/explore"
-      />
+  <link
+    rel="canonical"
+    href="https://pandit-ji-sanatan-setu.in/explore"
+  />
 
-      <meta
-        property="og:title"
-        content="Kundali Matching & Vedic Astrology | Sanatan Setu"
-      />
+  {/* Open Graph */}
+  <meta property="og:type" content="website" />
 
-      <meta
-        property="og:description"
-        content="Get traditional Kundali guidance, marriage matching and Vedic astrology consultation from experienced Pandit Ji."
-      />
+  <meta
+    property="og:title"
+    content="Kundali Matching & Vedic Astrology | Pandit Ji Sanatan Setu"
+  />
 
-      <meta property="og:type" content="website" />
+  <meta
+    property="og:description"
+    content="Explore Janam Kundali, marriage matching and traditional Vedic astrology guidance."
+  />
 
-      <meta
-        property="og:url"
-        content="https://pandit-ji-sanatan-setu.in/explore"
-      />
-    </Helmet>
+  <meta
+    property="og:url"
+    content="https://pandit-ji-sanatan-setu.in/explore"
+  />
+
+  <meta
+    property="og:image"
+    content="https://pandit-ji-sanatan-setu.in/favicon.jpg"
+  />
+</Helmet>
 
   
 

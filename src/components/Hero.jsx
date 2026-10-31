@@ -203,7 +203,7 @@ function bookpooja() {
 
     <div className="herodiv" style={{backgroundColor:"white"}}>
  <div id="animatedvdo">
-     <video id="vid" ref={videoRef}  src={video} autoPlay   playsInline preload="auto" loop/>
+     <video id="vid" ref={videoRef}  src={video} autoPlay   playsInline preload="auto" loop   aria-label="Pandit Ji Sanatan Setu religious services introduction" />
 </div>
 
 
@@ -231,35 +231,35 @@ function bookpooja() {
 
    
 
- <img className="imgid" src={imageslst[1]} alt="Image" />
+ <img className="imgid" src={imageslst[1]} alt="Hindu religious ceremony and puja by Pandit Ji" />
 
-<img className="imgid" src={imageslst[2]} alt="Image" />
+<img className="imgid" src={imageslst[2]} alt="Hindu religious ceremony and puja by Pandit Ji" />
 
-<img className="imgid" src={imageslst[3]} alt="Image" />
+<img className="imgid" src={imageslst[3]} alt="Hindu religious ceremony and puja by Pandit Ji" />
 
-<img className="imgid" src={imageslst[4]} alt="Image" />
+<img className="imgid" src={imageslst[4]} alt="Hindu religious ceremony and puja by Pandit Ji" />
 
-<img className="imgid" src={imageslst[5]} alt="Image"/>
+<img className="imgid" src={imageslst[5]} alt="Hindu religious ceremony and puja by Pandit Ji"/>
 
-<img className="imgid" src={imageslst[6]}alt="Image" />
+<img className="imgid" src={imageslst[6]}alt="Hindu religious ceremony and puja by Pandit Ji" />
 
-<img className="imgid" src={imageslst[7]} alt="Image" /> 
+<img className="imgid" src={imageslst[7]} alt="Hindu religious ceremony and puja by Pandit Ji" /> 
 
-<img  className="imgid" src={imageslst[8]} alt="Image" />
+<img  className="imgid" src={imageslst[8]} alt="Hindu religious ceremony and puja by Pandit Ji" />
 
-<img className="imgid" src={imageslst[20]} alt="Image" />
+<img className="imgid" src={imageslst[20]} alt="Hindu religious ceremony and puja by Pandit Ji" />
 
-<img className="imgid" src={imageslst[30]} alt="Image" />
+<img className="imgid" src={imageslst[30]} alt="Hindu religious ceremony and puja by Pandit Ji" />
 
-<img className="imgid" src={imageslst[33]} alt="Image" />
+<img className="imgid" src={imageslst[33]} alt="Hindu religious ceremony and puja by Pandit Ji" />
 
-<img className="imgid" src={imageslst[31]} alt="Image" />
+<img className="imgid" src={imageslst[31]} alt="Hindu religious ceremony and puja by Pandit Ji" />
 
-<img className="imgid"  src={imageslst[11]} alt="Image" />
+<img className="imgid"  src={imageslst[11]} alt="Hindu religious ceremony and puja by Pandit Ji" />
 
-<img className="imgid" src={imageslst[13]} alt="Image" />
+<img className="imgid" src={imageslst[13]} alt="Hindu religious ceremony and puja by Pandit Ji" />
 
-<img className="imgid" src={imageslst[1]}alt="Image" />
+<img className="imgid" src={imageslst[1]}alt="Hindu religious ceremony and puja by Pandit Ji" />
 
 
 
@@ -355,7 +355,7 @@ function bookpooja() {
 </div>
       {/* <div className="rightimg" data-aos="fade-left">  */}
          <div className="rightimg" data-aos="fade-left">
-          <img id="imgright" src={srsite} height="500px" width="600px" ></img>
+          <img id="imgright" src={srsite} height="500px" alt="Pandit Ji Sanatan Setu Hindu religious services" width="600px" ></img>
       </div>
 </div>
 

@@ -32,24 +32,39 @@ function bookpooja() {
     <>
 
     <Helmet>
+  <title>Book a Pandit Online for Puja & Havan | Sanatan Setu</title>
 
-      <title>Book Pandit Ji Online | Pandit Ji Sanatan Setu</title>
+  <meta
+    name="description"
+    content="Book experienced Pandits for Rudrabhishek, Havan, Griha Pravesh, Vivah Sanskar, Naamkaran, Kundali consultation and other Hindu religious ceremonies."
+  />
 
-      <meta
+  <meta name="robots" content="index, follow" />
 
-        name="description"
+  <link
+    rel="canonical"
+    href="https://pandit-ji-sanatan-setu.in/book"
+  />
 
-        content="Book experienced Pandit for Puja, Hawan, Griha Pravesh, Vivah Sanskar and Kundali for india and abroad at lowest cost for consultation."
-
-      />
-
-      <link
-
-        rel="canonical"
-
-  href="https://pandit-ji-sanatan-setu.in/book"      />
-
-    </Helmet>
+  {/* Open Graph */}
+  <meta property="og:type" content="website" />
+  <meta
+    property="og:title"
+    content="Book a Pandit Online | Pandit Ji Sanatan Setu"
+  />
+  <meta
+    property="og:description"
+    content="Book experienced Pandits for puja, havan, griha pravesh, wedding ceremonies and other Hindu rituals."
+  />
+  <meta
+    property="og:url"
+    content="https://pandit-ji-sanatan-setu.in/book"
+  />
+  <meta
+    property="og:image"
+    content="https://pandit-ji-sanatan-setu.in/favicon.jpg"
+  />
+</Helmet>
 
 
 
